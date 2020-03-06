@@ -1,0 +1,7 @@
+
+SERVICES PAGE
+    supported services (autodetect and/or have checkmarks)
+    
+
+NEAT FEATURES
+	connect to remote sessions and combine things, able to send commands over ssl
