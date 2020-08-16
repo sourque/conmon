@@ -51,7 +51,6 @@ func examineInput(app *tview.Application, view *View) func(event *tcell.EventKey
 	}
 }
 
-
 //////////
 // Main //
 //////////
@@ -84,11 +83,11 @@ func main() {
 
 	// Compose main View
 	mainView := View{
-        Flex: flex,
-        Connections: connections,
-        ServiceList: nil,
-        Status: status,
-    }
+		Flex:        flex,
+		Connections: connections,
+		ServiceList: nil,
+		Status:      status,
+	}
 	app.SetInputCapture(connectionsInput(app, &mainView))
 
 	// Spawn goroutine to update
